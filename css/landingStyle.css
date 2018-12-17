@@ -1,11 +1,19 @@
 .navbar{
-    height:150px;
+    height:140px;
     color:white;
 }
-.header-contacts p {
-    font-size: 1.2rem;
-    line-height: 30px;
-}
-.row-desktop{
+
+.nav-item a{
     color:white;
+    font-family: 'Crete Round', serif;
+    padding-left: 37px;
+    padding-right: 37px;
+}
+
+#main-header{
+    position:fixed;
+}
+
+body{
+    
 }
