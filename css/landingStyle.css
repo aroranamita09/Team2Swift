@@ -1,19 +1,33 @@
+body{
+    width:100%;
+
+}
 .navbar{
     height:140px;
     color:white;
 }
 
+
 .nav-item a{
     color:white;
     font-family: 'Crete Round', serif;
-    padding-left: 37px;
-    padding-right: 37px;
+    padding-left: 35px;
+    padding-right: 35px;
 }
 
 #main-header{
     position:fixed;
 }
 
-body{
+/*body{
     background-image: url("../images/images_pratima/home6.jpg");
+}*/
+
+.jumbotron-fluid{
+    font-family: 'Crete Round', serif;
+    background-color: #f7f7f7;
+    padding-left:350px;
+}
+.ce_text{
+    text-align: center;
 }
