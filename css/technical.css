@@ -10,6 +10,7 @@ body {
     background: #f7f7f7;
     overflow-x: hidden;
     color: #141312;
+    font-family: 'Crete Round', serif;
     -webkit-font-smoothing: antialiased;
     -webkit-text-stroke: 1px transparent;
     text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
