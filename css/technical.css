@@ -68,7 +68,7 @@ footer {
 .container {
     max-width: 100%;
 }
-header p, .foot-p, .foot-p a{
+.sub-head p, .foot-p, .foot-p a{
     color: #141312;
 }
 .payment-head {
@@ -78,10 +78,10 @@ header p, .foot-p, .foot-p a{
 .payment {
     padding-left: 3vh;
 }
-header a {
+.sub-head a {
     color: #141312;
 }
-header ul, header h1 {
+.sub-head ul, header h1 {
     padding: 1vh;
 }
 main hr {
@@ -106,4 +106,23 @@ main hr {
     bottom: -5px;
     left: 50%;
     margin-left: -5px;
+}
+.navbar{
+    height:140px;
+    color:white;
+}
+
+
+.nav-item a{
+    color:white;
+    font-family: 'Crete Round', serif;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+#main-header{
+    position:fixed;
+}
+.sub-head {
+    padding-top: 140px;
 }
