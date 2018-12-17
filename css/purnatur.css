@@ -1,0 +1,35 @@
+.col-sm{
+    position: relative;
+}
+
+.col-sm:hover .overlay{
+    opacity: 1;
+
+}
+
+.col-sm a:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+  }
+
+.overlay{ 
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    
+
+}
+
+.text{
+    color: darkgrey;
+    font-size: 50px;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    text-align: center;
+}
