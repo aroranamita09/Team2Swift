@@ -83,6 +83,17 @@
                 visibility: hidden;
             }
         }
+
+
+        body{
+            background-color: #f4f6f9;
+            font-family: 'Crete Round', serif;
+            margin:auto;
+        }
+        html{
+            width:100%;
+            
+        }
         
 
           
