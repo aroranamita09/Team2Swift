@@ -3,8 +3,12 @@
     backface-visibility: hidden;
     background-color: inherit;
 }
+html {
+    overflow-x: hidden;
+}
 body {
     background: #f7f7f7;
+    overflow-x: hidden;
     color: #141312;
     -webkit-font-smoothing: antialiased;
     -webkit-text-stroke: 1px transparent;
@@ -124,5 +128,11 @@ main hr {
     position:fixed;
 }
 .sub-head {
-    padding-top: 140px;
+    padding-top: 200px;
+    padding-bottom: 5vh;
+    padding-left: 3vh;;
+}
+.card-group {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
 }
