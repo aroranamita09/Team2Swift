@@ -33,3 +33,15 @@
     left: 25%;
     text-align: center;
 }
+body {
+    background: #f7f7f7;
+    color: #141312;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke: 1px transparent;
+    text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+.year-2 {
+    background: #e3e2e2;
+    width: 100%;
+    margin: 0%;
+}
