@@ -78,3 +78,20 @@ header p, .foot-p, .foot-p a{
 .payment {
     padding-left: 3vh;
 }
+header a {
+    color: #141312;
+}
+header ul, header h1 {
+    padding: 1vh;
+}
+main hr {
+    width: 98%;
+}
+.foot-l li {
+    padding-left: 4%; 
+}
+@media (max-width: 320px){
+    #up-arrow {
+        visibility: hidden;
+    }
+}
