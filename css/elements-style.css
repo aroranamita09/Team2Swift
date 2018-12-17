@@ -42,6 +42,12 @@ p{
     margin-top: 20px;
   }
 
+.button:hover{
+    background: white;
+    color: black;
+    border: 1px black;
+}
+
 .button1 {
     border-radius: 18px;
 }
