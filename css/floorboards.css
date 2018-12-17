@@ -1,0 +1,177 @@
+body{
+    width:100%;
+}
+.redirectlinks{
+    display: inline;
+    text-decoration:none;
+}
+.invisible{
+    border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px
+}
+.anchor{
+    text-decoration:none; color:black;
+}
+.modal-overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,.8);
+    z-index: 9999;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal-block {
+    position: relative;
+    width: 90%;
+    height: auto;
+    max-width: 600px;
+    max-height: 450px;
+    text-align: center;
+    background: #fff;
+    padding: 50px 30px;
+}
+.btn, .btn-outline-succes :{
+    background-color:white;
+    border:none;
+}
+.btn, .btn-outline-success:hover{
+    background-color: black;
+    color:white;
+    border:none;
+}
+.navbar{
+    margin-bottom:0;
+}
+.nav-link{
+    margin-right:10px;
+    font-size:15px;
+}
+.bg_image{
+    background-image:url("../images/pur-natur-Dielen-Douglasie-Select-massiv_28x300_gibbins-european-architects-Hamburg_05_web.jpg") no-repeat;    
+}
+.font_image{
+    font-family: 'icomoon';
+  src: url("../fonts/icomoon.eot");
+  src: url("../fonts/icomoon.eot#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf") format("truetype"), url("../fonts/icomoon.woff") format("woff"), url("../fonts/icomoon.svg#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-family: 'tstar_mono_roundregular', sans-serif;
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 22px;
+  letter-spacing: -1px;
+  color:white;
+  text-align:center;
+}
+.dse-inside p {
+    font-family: 'tstar_mono_roundregular', sans-serif;
+    font-size: 24px;
+    font-size: 2.4rem;
+    line-height: 28px;
+}
+.centered {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.icon-arrow-accordeon:before {
+    content: "> "; 
+}
+.img-responsive{
+    width:100%;
+}
+.heading-icon{
+    text-align:center; 
+}
+.image_icon{
+    display:block;
+    margin-left:auto;
+    margin-top:auto;
+    margin-bottom: 50px;
+    margin-right:auto;
+    height:5%;
+    width:5%;
+    align-items: center;
+}
+.text_align{
+    text-align: center;
+}
+.image_icon1{
+    display:block;
+    margin-top:auto;
+    margin-left:auto;
+    margin-right:auto;
+}
+.foot-bg a {
+    color: white;
+}
+footer {
+    position: relative;
+}
+.foot-bg{
+    background: #141312;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+.foot-bg hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0; 
+    width: 50px;
+}
+.ce_hyperlink.grey a, .button-block.grey a, p.back.grey a {
+    color: #141312;
+    background: #e3e2e2;
+    text-transform: uppercase;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    padding: 10px 18px;
+    margin-bottom: 15px;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 0.9rem;
+}
+.container {
+    max-width: 100%;
+}
+header p, .foot-p, .foot-p a{
+    color: #141312;
+}
+.payment-head {
+    font-size: 2rem;
+    padding-left: 7vh;
+}
+.payment {
+    padding-left: 3vh;
+}
+header a {
+    color: #141312;
+}
+header ul, header h1 {
+    padding: 1vh;
+}
+.width_hr {
+    width: 98%;
+}
+.foot-l li {
+    padding-left: 4%; 
+}
+@media (max-width: 320px){
+    #up-arrow {
+        visibility: hidden;
+    }
+}
