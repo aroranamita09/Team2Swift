@@ -1,5 +1,5 @@
 h1 {
-    font-size: 3rem;
+    font-size: 2.7rem;
     line-height: 36px;
     margin-top: 10px;
 }
@@ -7,7 +7,11 @@ h1 {
 p{
     line-height: 25px;
     font-size: 20px;
-    letter-spacing: -1px;
+    letter-spacing: 1px;
+}
+
+.img-responsive:hover{
+    transform:scale(1.2);
 }
 
 .button {
@@ -22,6 +26,10 @@ p{
     cursor: pointer;
     margin-top: 20px;
   }
+
+.button button1:hover{
+    background-color: red;
+}
 
 .button1 {
     border-radius: 18px;
