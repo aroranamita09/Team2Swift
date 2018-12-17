@@ -1,5 +1,7 @@
-body{
+body,html{
     width:100%;
+    font-family: 'Crete Round', serif;
+    overflow-x: hidden;
 }
 .redirectlinks{
     display: inline;
