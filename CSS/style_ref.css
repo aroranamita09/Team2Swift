@@ -1,0 +1,12 @@
+.search-open
+{
+    align-content: right;
+}
+.btn btn-secondary active
+{
+text-transform: uppercase;
+border-radius: 20px;
+border: 1px solid transparent;
+padding: 11px 19px;
+margin-bottom: 15px
+}
