@@ -1,0 +1,19 @@
+.navbar{
+    height:140px;
+    color:white;
+}
+
+.nav-item a{
+    color:white;
+    font-family: 'Crete Round', serif;
+    padding-left: 37px;
+    padding-right: 37px;
+}
+
+#main-header{
+    position:fixed;
+}
+
+body{
+    background-image: url("../images/images_pratima/home6.jpg");
+}

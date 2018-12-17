@@ -1,0 +1,97 @@
+.card {
+    border: none;
+    backface-visibility: hidden;
+    background-color: inherit;
+}
+body {
+    background: #f7f7f7;
+    color: #141312;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke: 1px transparent;
+    text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+.card a{
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1.1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    vertical-align: text-bottom;
+    margin-right: 5px;
+    text-shadow: none;
+    color: black;
+}
+ul li {
+    display: inline;
+
+}
+.foot-bg a {
+    color: white;
+}
+footer {
+    position: relative;
+}
+.foot-bg{
+    background: #141312;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+.foot-bg hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0; 
+    width: 50px;
+}
+.ce_hyperlink.grey a, .button-block.grey a, p.back.grey a {
+    color: #141312;
+    background: #e3e2e2;
+    text-transform: uppercase;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    padding: 10px 18px;
+    margin-bottom: 15px;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 0.9rem;
+}
+.container {
+    max-width: 100%;
+}
+header p, .foot-p, .foot-p a{
+    color: #141312;
+}
+.payment-head {
+    font-size: 2rem;
+    padding-left: 7vh;
+}
+.payment {
+    padding-left: 3vh;
+}
+header a {
+    color: #141312;
+}
+header ul, header h1 {
+    padding: 1vh;
+}
+main hr {
+    width: 98%;
+}
+.foot-l li {
+    padding-left: 4%; 
+}
+@media (max-width: 320px){
+    #up-arrow {
+        visibility: hidden;
+    }
+}
